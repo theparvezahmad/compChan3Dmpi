@@ -1,0 +1,230 @@
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017  12:03:45.712 PM  
+ ==================================================================
+ Input file successfully read
+   3530010 306.59600 | CPU Time:17.425 sec for 10 iters |   8 May 2017  12:04:20.515 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:16.025 sec for 10 iters |   8 May 2017  12:04:36.540 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:15.981 sec for 10 iters |   8 May 2017  12:04:52.520 PM  
+ --------------------------------------------------------
+   3530040 306.59900 | CPU Time:16.021 sec for 10 iters |   8 May 2017  12:05:08.543 PM  
+ --------------------------------------------------------
+   3530050 306.60000 | CPU Time:16.017 sec for 10 iters |   8 May 2017  12:05:24.558 PM  
+ --------------------------------------------------------
+   3530054   0  16  10   2  1.1404 -0.2584
+   3530058   3  13 109 159  1.1559 -0.1554
+   3530060   1  62  55 159  1.1492 -0.1712
+   3530060   7 118 120 159  1.1732 -0.0151
+   3530060   5  77  55 159  1.1627 -0.1505
+   3530060 306.60100 | CPU Time:39.306 sec for 10 iters |   8 May 2017  12:06:03.884 PM  
+ --------------------------------------------------------
+   3530070 306.60200 | CPU Time:60.520 sec for 10 iters |   8 May 2017  12:07:04.660 PM  
+ --------------------------------------------------------
+   3530080 306.60300 | CPU Time:60.636 sec for 10 iters |   8 May 2017  12:08:05.531 PM  
+ --------------------------------------------------------
+   3530090 306.60400 | CPU Time:60.820 sec for 10 iters |   8 May 2017  12:09:06.605 PM  
+ --------------------------------------------------------
+   3530100 306.60500 | CPU Time:61.172 sec for 10 iters |   8 May 2017  12:10:08.021 PM  
+ --------------------------------------------------------
+   3530110 306.60600 | CPU Time:61.008 sec for 10 iters |   8 May 2017  12:11:09.285 PM  
+ --------------------------------------------------------
+   3530120 306.60700 | CPU Time:60.660 sec for 10 iters |   8 May 2017  12:12:10.200 PM  
+ --------------------------------------------------------
+   3530130 306.60800 | CPU Time:60.708 sec for 10 iters |   8 May 2017  12:13:11.167 PM  
+ --------------------------------------------------------
+   3530140 306.60900 | CPU Time:60.980 sec for 10 iters |   8 May 2017  12:14:12.395 PM  
+ --------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_mpi.x         000000000040D02A  Unknown               Unknown  Unknown
+v1.8_mpi.x         0000000000403A2C  Unknown               Unknown  Unknown
+libc.so.6          00007FE5419B976D  Unknown               Unknown  Unknown
+v1.8_mpi.x         0000000000403929  Unknown               Unknown  Unknown
+rank 6 in job 26  cfdamu48_42307   caused collective abort of all ranks
+  exit status of rank 6: return code 1 
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:40.075 PM  
+ ==================================================================
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:40.081 PM  
+ ==================================================================
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:40.729 PM  
+ ==================================================================
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:42.353 PM  
+ ==================================================================
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:42.526 PM  
+ ==================================================================
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:43.601 PM  
+ ==================================================================
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:43.891 PM  
+ ==================================================================
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:33:51.279 PM  
+ ==================================================================
+ Input file successfully read
+ Input file successfully read
+ Input file successfully read
+ Input file successfully read
+ Input file successfully read
+ Input file successfully read
+ Input file successfully read
+ Input file successfully read
+   3530010 306.59600 | CPU Time:36.982 sec for 10 iters |   8 May 2017   4:34:30.009 PM  
+ --------------------------------------------------------
+   3530010 306.59600 | CPU Time:36.834 sec for 10 iters |   8 May 2017   4:34:30.130 PM  
+ --------------------------------------------------------
+   3530010 306.59600 | CPU Time:47.739 sec for 10 iters |   8 May 2017   4:34:45.278 PM  
+ --------------------------------------------------------
+   3530010 306.59600 | CPU Time:48.827 sec for 10 iters |   8 May 2017   4:34:48.248 PM  
+ --------------------------------------------------------
+   3530010 306.59600 | CPU Time:52.739 sec for 10 iters |   8 May 2017   4:34:50.622 PM  
+ --------------------------------------------------------
+   3530010 306.59600 | CPU Time:66.808 sec for 10 iters |   8 May 2017   4:35:01.769 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:36.822 sec for 10 iters |   8 May 2017   4:35:06.830 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:36.742 sec for 10 iters |   8 May 2017   4:35:06.874 PM  
+ --------------------------------------------------------
+   3530010 306.59600 | CPU Time:73.997 sec for 10 iters |   8 May 2017   4:35:22.782 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:47.051 sec for 10 iters |   8 May 2017   4:35:32.327 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:48.711 sec for 10 iters |   8 May 2017   4:35:36.956 PM  
+ --------------------------------------------------------
+   3530010 306.59600 | CPU Time:****** sec for 10 iters |   8 May 2017   4:35:41.419 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:52.595 sec for 10 iters |   8 May 2017   4:35:43.217 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:37.054 sec for 10 iters |   8 May 2017   4:35:43.929 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:37.158 sec for 10 iters |   8 May 2017   4:35:43.986 PM  
+ --------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_serial.x      000000000040CE18  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F229B2B976D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+   3530020 306.59700 | CPU Time:66.080 sec for 10 iters |   8 May 2017   4:36:07.848 PM  
+ --------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_serial.x      000000000040515F  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F6EB4DF976D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+   3530040 306.59900 | CPU Time:35.662 sec for 10 iters |   8 May 2017   4:36:19.592 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:47.395 sec for 10 iters |   8 May 2017   4:36:19.722 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:48.695 sec for 10 iters |   8 May 2017   4:36:25.652 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:46.947 sec for 10 iters |   8 May 2017   4:36:30.165 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:74.609 sec for 10 iters |   8 May 2017   4:36:37.389 PM  
+ --------------------------------------------------------
+   3530050 306.60000 | CPU Time:34.622 sec for 10 iters |   8 May 2017   4:36:54.215 PM  
+ --------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_serial.x      0000000000408B2A  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F7D1E29976D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+   3530040 306.59900 | CPU Time:47.247 sec for 10 iters |   8 May 2017   4:37:06.970 PM  
+ --------------------------------------------------------
+   3530054  16  10   2**** -0.2584
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_serial.x      000000000040CE2A  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F8C0B00976D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+   3530020 306.59700 | CPU Time:94.942 sec for 10 iters |   8 May 2017   4:37:16.360 PM  
+ --------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_serial.x      0000000000408812  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F39C09F976D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_serial.x      00000000004087D8  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F2D02EC976D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F82B7BCECB0  Unknown               Unknown  Unknown
+v1.8_serial.x      000000000041D666  Unknown               Unknown  Unknown
+v1.8_serial.x      000000000041E6EB  Unknown               Unknown  Unknown
+v1.8_serial.x      000000000043A218  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000409DE4  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F82B782176D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+   3530030 306.59800 | CPU Time:63.700 sec for 10 iters |   8 May 2017   4:37:41.089 PM  
+ --------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+v1.8_serial.x      000000000040546E  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00007F8BA8A9976D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017   4:38:55.716 PM  
+ ==================================================================
+ Input file successfully read
+   3530010 306.59600 | CPU Time:45.059 sec for 10 iters |   8 May 2017   4:39:56.111 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:44.955 sec for 10 iters |   8 May 2017   4:40:41.064 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:44.923 sec for 10 iters |   8 May 2017   4:41:25.988 PM  
+ --------------------------------------------------------
+   3530040 306.59900 | CPU Time:44.939 sec for 10 iters |   8 May 2017   4:42:10.926 PM  
+ --------------------------------------------------------
+   3530050 306.60000 | CPU Time:44.955 sec for 10 iters |   8 May 2017   4:42:55.882 PM  
+ --------------------------------------------------------
+   3530054  16  10   2**** -0.2584
+   3530058  13 109 159**** -0.1554
+   3530060  62  55 159**** -0.1712
+   3530060  77  55 159**** -0.1505
+   3530060 118 120 159**** -0.0151
+   3530060 306.60100 | CPU Time:****** sec for 10 iters |   8 May 2017   4:45:59.806 PM  
+ --------------------------------------------------------
+   3530070 306.60200 | CPU Time:****** sec for 10 iters |   8 May 2017   4:49:44.592 PM  
+ --------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B8AEFF0ECB0  Unknown               Unknown  Unknown
+v1.8_serial.x      000000000041D666  Unknown               Unknown  Unknown
+v1.8_serial.x      000000000041E6EB  Unknown               Unknown  Unknown
+v1.8_serial.x      000000000043A218  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000409DE4  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402D2C  Unknown               Unknown  Unknown
+libc.so.6          00002B8AF014176D  Unknown               Unknown  Unknown
+v1.8_serial.x      0000000000402C29  Unknown               Unknown  Unknown
+ ==================================================================
+ Compressible Channel Flow Solver started at : 8 May 2017  11:31:01.820 PM  
+ ==================================================================
+ Input file successfully read
+   3530010 306.59600 | CPU Time:17.005 sec for 10 iters |   8 May 2017  11:31:36.751 PM  
+ --------------------------------------------------------
+   3530020 306.59700 | CPU Time:16.941 sec for 10 iters |   8 May 2017  11:31:53.693 PM  
+ --------------------------------------------------------
+   3530030 306.59800 | CPU Time:16.821 sec for 10 iters |   8 May 2017  11:32:10.513 PM  
+ --------------------------------------------------------
+   3530040 306.59900 | CPU Time:16.709 sec for 10 iters |   8 May 2017  11:32:27.222 PM  
+ --------------------------------------------------------
+   3530050 306.60000 | CPU Time:16.933 sec for 10 iters |   8 May 2017  11:32:44.157 PM  
+ --------------------------------------------------------
+   3530054   0  16  10   2  1.1404 -0.2584
+rank 0 in job 28  cfdamu48_42307   caused collective abort of all ranks
+  exit status of rank 0: return code 0 

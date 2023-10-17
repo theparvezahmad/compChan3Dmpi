@@ -1,0 +1,16 @@
+tim=$(date +%Hh-%d%b)
+pl=plots${tim}_case4
+
+if [ ! -d ../plots ]; then
+mkdir ../plots
+fi
+
+cd ../plots
+
+if [ ! -d $pl ]; then
+mkdir $pl
+fi
+
+cd $pl
+
+gnuplot ../../codes/cmdGNUplot.txt

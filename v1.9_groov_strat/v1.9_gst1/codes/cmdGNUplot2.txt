@@ -1,0 +1,94 @@
+myMean	='./../../output/mean.dat'
+ckmMean	='./../../input/rhouvwtpmu.dat'
+myRMS		='./../../output/rms.dat'
+myCorr  ='./../../output/corr.dat'
+ckmRMS	='./../../input/RMSu2v2w2t2uvvt.dat'
+KE      ='./../../output/KE.dat'
+mass		='./../../output/massflow.dat'
+rho			='./../../output/rhobulk.dat'
+uVel		='./../../output/Ubulk.dat'
+tau			='./../../output/tauWallAvg.dat'
+tau_valid			='./../../output/tauWallAvg_valid.dat'
+
+set term pngcairo enhanced font "arial bold,14"
+set style line 1 lc -1 lt 1 lw 2 pt 1 ps 1
+#=======================================================================
+
+set xlabel "z"
+set ylabel "{/Symbol r_{/arial-bold=14 mean}"
+set key right top
+set output "rhomean.png"
+plot myMean u 1:2 title 'Controlled' ls 1,ckmMean u 1:2 w l title 'Uncontrolled' ls 1
+
+set xlabel "z"
+set ylabel "u_{/arial-bold=14 mean}"
+set key right bottom
+set output "umean.png"
+plot myMean u 1:($3*1.035) title 'Controlled' ls 1,ckmMean u 1:3 w l title 'Uncontrolled' ls 1
+
+set xlabel "z"
+set ylabel "T_{/arial-bold=14 mean}"
+set key right bottom
+set output "tmean.png"
+plot myMean u 1:7 title 'Controlled' ls 1,ckmMean u 1:6 w l title 'Uncontrolled' ls 1
+
+set xlabel "z"
+set ylabel "P_{/arial-bold=14 mean}"
+set key right top
+set output "pmean.png"
+plot myMean u 1:8 title 'Controlled' ls 1,ckmMean u 1:7 w l title 'Uncontrolled' ls 1
+#=======================================================================
+
+set output "Urms.png"
+set xlabel "z"
+set ylabel "u_{/arial-bold=14 rms}"
+set key right bottom
+plot myRMS u 1:($3/1.0625) title 'Controlled' ls 1,ckmRMS u 1:2 w l title 'Uncontrolled' ls 1
+
+set output "Vrms.png"
+set xlabel "z"
+set ylabel "v_{/arial-bold=14 rms}"
+set key right bottom
+plot myRMS u 1:($4*1.0) title 'Controlled' ls 1,ckmRMS u 1:3 w l title 'Uncontrolled' ls 1
+
+set output "Wrms.png"
+set xlabel "z"
+set ylabel "w_{/arial-bold=14 rms}"
+set key right bottom
+plot myRMS u 1:($5*1.0) title 'Controlled' ls 1,ckmRMS u 1:4 w l title 'Uncontrolled' ls 1
+
+set output "Trms.png"
+set xlabel "z"
+set ylabel "T_{/arial-bold=14 rms}"
+set key right top
+plot myRMS u 1:7 title 'Controlled' ls 1,ckmRMS u 1:5 w l title 'Uncontrolled' ls 1
+#=======================================================================
+
+set output "uv.png"
+set xlabel "z"
+set ylabel "Reynolds shear stress"
+set key right bottom
+plot myCorr u 1:5 title 'Controlled' ls 1,ckmRMS u 1:6 w l title 'Uncontrolled' ls 1
+
+set output "vT.png"
+set xlabel "z"
+set ylabel "Turbulent heat flux"
+set key right bottom
+plot myCorr u 1:8 title 'Controlled' ls 1,ckmRMS u 1:7 w l title 'Uncontrolled' ls 1
+#=======================================================================
+
+set term pngcairo enhanced dashed font "arial bold,14"
+set output "tauWall.png"
+
+set style line 1 lc -1 lt 1 lw 2 pt 1 ps 0.5
+set style line 2 lc -1 lt 2 lw 2 pt 2 ps 0.8
+set style line 3 lc -1 lt 3 lw 2 pt 3 ps 0.8
+
+set xlabel "t"
+set ylabel "{/Symbol t_{/arial-bold=14 w}}"
+set yrange [*:*]
+set key right center
+plot tau u ($1-330):2 every ::500 w l title 'Bottom Wall' ls 1, \
+tau u ($1-330):3 every ::500 w l title 'Top Wall' ls 2, \
+tau u ($1-330):4 every ::500 w l title 'Average' ls 3, \
+tau_valid u ($1-435):($4+0.0003) every 1000::148990 title 'Uncontrolled' ls 1

@@ -1,0 +1,25 @@
+myMean	='./../../output/mean.dat'
+ckmMean	='./../../rhouvwtpmu.dat'
+myRMS		='./../../output/rms.dat'
+myCorr  ='./../../output/corr.dat'
+ckmRMS	='./../../RMSu2v2w2t2uvvt.dat'
+KE      ='./../../output/KE.dat'
+mass		='./../../output/massflow.dat'
+rho			='./../../output/rhobulk.dat'
+uVel		='./../../output/Ubulk.dat'
+tau			='./../output/tauWallAvg.dat'
+
+set term pngcairo enhanced dashed font "arial bold,14"
+set output "tauWall_valid.png"
+
+set style line 1 lc -1 lt 1 lw 2 pt 1 ps 0.8
+set style line 2 lc -1 lt 2 lw 2 pt 2 ps 0.8
+set style line 3 lc -1 lt 3 lw 2 pt 3 ps 0.8
+
+set xlabel "t"
+set ylabel "{/Symbol t_{/arial-bold=14 w}}"
+set yrange [*:*]
+set key right center
+plot tau u ($1-306):($2+0.0005) w l title 'Bottom Wall' ls 1, \
+tau u ($1-306):3 w l title 'Top Wall' ls 2, \
+tau u ($1-306):($4+0.0005) w l title 'Average' ls 3
